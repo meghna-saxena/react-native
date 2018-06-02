@@ -8,6 +8,7 @@ import { StyleSheet, Text, Image, View } from 'react-native';
 // import TextInput from './src/TextInput';
 // import Buttons from './src/Buttons';
 import ScrollView from './src/ScrollView';
+import FlatList from './src/FlatLists';
 
 export default class App extends React.Component {
   render() {
@@ -22,7 +23,7 @@ export default class App extends React.Component {
       //   <Greeting />
       //   <Style />
       // </View>
-      <ScrollView />
+      <FlatList />
     );
   }
 }
